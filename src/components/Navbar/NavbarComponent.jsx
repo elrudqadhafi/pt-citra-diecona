@@ -46,7 +46,7 @@ const NavbarComponent = () => {
                   isPending
                     ? "pending"
                     : isActive
-                    ? "bg-blue-900 py-2 px-5 text-white rounded "
+                    ? "bg-blue-900 py-2 px-5 text-white rounded"
                     : "hover:text-blue-900"
                 }
                 end
