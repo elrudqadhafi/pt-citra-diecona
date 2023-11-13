@@ -20,7 +20,7 @@ const sertifikatPenghargaan = () => {
       </Helmet>
 
       <div
-        className="py-14 h-[300px]"
+        className="h-[300px]"
         style={{
           backgroundImage: `url(${SertifikatPenghargaan})`,
           backgroundPosition: "center",
@@ -28,8 +28,8 @@ const sertifikatPenghargaan = () => {
           backgroundSize: "cover",
         }}
       >
-        <div className="h-[245px] w-full bg-black/50">
-          <div className="container py-20">
+        <div className="h-[300px] w-full bg-black/50">
+          <div className="container py-36">
             <h1 className="text-center text-2xl md:text-3xl lg:text-4xl text-white font-semibold uppercase font-serif">
               Sertifikat & Penghargaan
             </h1>
