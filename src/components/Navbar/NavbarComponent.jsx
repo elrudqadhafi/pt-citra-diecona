@@ -59,7 +59,7 @@ const NavbarComponent = () => {
           {/* Mobile Menu */}
           <ul
             className={`
-            text-xl lg:hidden bg-white shadow-lg absolute w-full h-auto sm:h-96 md:h-auto py-6 top-16 border-blue-900/20 border-t-[1px] duration-300 ${
+            text-xl lg:hidden bg-white shadow-lg absolute w-full h-auto sm:h-96 md:h-auto py-6 top-14 border-blue-500/20 border-t-[1px] duration-300 ${
               open ? "right-0" : "right-[100%]"
             }
           `}

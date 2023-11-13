@@ -5,7 +5,7 @@ const AccordionComponent = ({ open, toggle, title, image }) => {
   return (
     <div>
       <div
-        className="flex justify-between items-center bg-blue-900 py-3 px-10 border-b border-gray-500 cursor-pointer"
+        className="flex justify-between items-center bg-blue-900 py-3 px-3 lg:px-5 border-b border-gray-500 cursor-pointer"
         onClick={toggle}
       >
         <p className="text-white text-xl font-light">{title}</p>
@@ -19,7 +19,7 @@ const AccordionComponent = ({ open, toggle, title, image }) => {
       </div>
 
       <Collapse isOpened={open}>
-        <div className="bg-blue-900/10 py-[20px] px-[40px] lg:px-[50px]">
+        <div className="bg-blue-900/10 py-[20px] px-[10px] lg:px-[30px]">
           <img src={image} alt="" className="w-full" />
         </div>
       </Collapse>
