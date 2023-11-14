@@ -8,14 +8,14 @@ const sertifikatPenghargaan = () => {
   return (
     <>
       <Helmet>
-        <title>Struktur Organisasi | PT Citra Diecona</title>
+        <title>Sertifikat & Penghargaan | PT Citra Diecona</title>
         <meta
           name="description"
           content="PT Citra Diecona adalah perusahaan yang bergerak dibidang penyedia jasa layanan konsultan dalam bidang Perencanaan Teknik, Pengawasan dan Manajemen umum pada Instansi, Lembaga, Perusahaan Pemerintah maupun Pihak Swasta."
         />
         <meta
           name="keywords"
-          content="struktur organisasi, PT Citra Diecona, Perusahaan yang bergerak di bidang konstruksi, pembangunan, dan manufaktur, konsultan proyek, consulting engineers"
+          content="sertifikat & penghargaan,prestasi PT Citra Diecona, Perusahaan yang bergerak di bidang konstruksi, pembangunan, dan manufaktur, konsultan proyek, consulting engineers"
         />
       </Helmet>
 
@@ -28,7 +28,7 @@ const sertifikatPenghargaan = () => {
           backgroundSize: "cover",
         }}
       >
-        <div className="h-[300px] w-full bg-black/50">
+        <div className="h-[300px] w-full bg-black/60">
           <div className="container py-36">
             <h1 className="text-center text-2xl md:text-3xl lg:text-4xl text-white font-semibold uppercase font-serif">
               Sertifikat & Penghargaan

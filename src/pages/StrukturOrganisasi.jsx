@@ -28,7 +28,7 @@ const StrukturOrganisasi = () => {
           backgroundSize: "cover",
         }}
       >
-        <div className="h-[300px] w-full bg-black/50">
+        <div className="h-[300px] w-full bg-black/60">
           <div className="container py-36">
             <h1 className="text-center text-2xl md:text-3xl lg:text-4xl text-white font-semibold uppercase font-serif">
               Struktur Organisasi

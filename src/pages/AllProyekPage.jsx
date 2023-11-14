@@ -14,12 +14,12 @@ const AllProyekPage = () => {
         />
         <meta
           name="keywords"
-          content="tentang citra diecona, PT Citra Diecona, Perusahaan yang bergerak di bidang konstruksi, pembangunan, dan manufaktur, konsultan proyek, consulting engineers, proyek, proyek konstruksi, semua proyek."
+          content="proyek citra diecona, proyek, PT Citra Diecona, Perusahaan yang bergerak di bidang konstruksi, pembangunan, dan manufaktur, konsultan proyek, consulting engineers, proyek, proyek konstruksi, semua proyek."
         />
       </Helmet>
 
       <div
-        className="py-14 h-[300px]"
+        className="h-[300px]"
         style={{
           backgroundImage: `url(${TentangKamiImg})`,
           backgroundPosition: "center",
@@ -27,8 +27,8 @@ const AllProyekPage = () => {
           backgroundSize: "cover",
         }}
       >
-        <div className="h-[245px] w-full bg-black/50">
-          <div className="container py-24 md:py-20">
+        <div className="h-[300px] w-full bg-black/50">
+          <div className="container py-36">
             <h1 className="text-center text-2xl md:text-3xl lg:text-4xl text-white font-semibold uppercase font-serif">
               Proyek
             </h1>

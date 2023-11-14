@@ -7,19 +7,19 @@ const ListProyekPage = () => {
   return (
     <>
       <Helmet>
-        <title>Struktur Organisasi | PT Citra Diecona</title>
+        <title>List Proyek | PT Citra Diecona</title>
         <meta
           name="description"
           content="PT Citra Diecona adalah perusahaan yang bergerak dibidang penyedia jasa layanan konsultan dalam bidang Perencanaan Teknik, Pengawasan dan Manajemen umum pada Instansi, Lembaga, Perusahaan Pemerintah maupun Pihak Swasta."
         />
         <meta
           name="keywords"
-          content="struktur organisasi, PT Citra Diecona, Perusahaan yang bergerak di bidang konstruksi, pembangunan, dan manufaktur, konsultan proyek, consulting engineers"
+          content="list proyek, daftar pengalaman, daftar proyek,data pengalaman citra diecona, PT Citra Diecona, Perusahaan yang bergerak di bidang konstruksi, pembangunan, dan manufaktur, konsultan proyek, consulting engineers"
         />
       </Helmet>
 
       <div
-        className="py-14 h-[300px]"
+        className="h-[300px]"
         style={{
           backgroundImage: `url(${ListProyek})`,
           backgroundPosition: "center",
@@ -27,8 +27,8 @@ const ListProyekPage = () => {
           backgroundSize: "cover",
         }}
       >
-        <div className="h-[245px] w-full bg-black/50">
-          <div className="container py-20">
+        <div className="h-[300px] w-full bg-black/50">
+          <div className="container py-36">
             <h1 className="text-center text-2xl md:text-3xl lg:text-4xl text-white font-semibold uppercase font-serif">
               List Proyek
             </h1>
